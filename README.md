@@ -23,13 +23,13 @@ Originally a fork of [bitcoinjs-lib](https://github.com/BitGo/bitcoinjs-lib); we
 - Principled: No support for browsers with RNG (IE < 11)
 - Standardized: Node community coding style, Browserify, Node's stdlib and Buffers.
 - Experiment-friendly: Mainnet and Testnet support.
-- Multicoin support: Configurable behaviour based on [network](https://github.com/BitGo/bitgo-utxo-lib/blob/master/src/networks.js) objects.
+- Multicoin support: Configurable behaviour based on [network](https://github.com/corey-code/clore-lib/blob/master/src/networks.js) objects.
 - Backed by [BitGo](https://www.bitgo.com/info/)
 
 ## Installation
 
 ```bash
-npm install bitgo-utxo-lib
+npm install clore-lib
 ```
 
 ## Setup
@@ -37,7 +37,7 @@ npm install bitgo-utxo-lib
 ### Node.js
 
 ```javascript
-var bitGoUTXO = require('bitgo-utxo-lib');
+var bitGoUTXO = require('clore-lib');
 ```
 
 ### Browser
@@ -50,7 +50,7 @@ These steps are advisory only, and may not be suitable for your application.
 For your project, create an `index.js` file
 
 ```javascript
-let bitGoUTXO = require('bitgo-utxo-lib');
+let bitGoUTXO = require('clore-lib');
 
 // your code here
 function myFunction() {
