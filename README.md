@@ -11,11 +11,7 @@ Originally a fork of [bitcoinjs-lib](https://github.com/BitGo/bitcoinjs-lib); we
 ## Supported coins
 
 - Bitcoin
-- Bitcoin Cash
-- Bitcoin Gold
-- Dash
-- Litecoin
-- Zcash (Sapling compatible)
+- Clore.ai
 
 ## Features
 
